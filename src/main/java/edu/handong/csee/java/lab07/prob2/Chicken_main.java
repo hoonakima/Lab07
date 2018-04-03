@@ -1,9 +1,19 @@
 package edu.handong.csee.java.lab07.prob2;
 
 
+/**
+ * This class is for executing the program which contains Chicken class.
+ * @author jo jeong hoon
+ *
+ */
 public class Chicken_main {
 
 
+	/**
+	 * starts this program.
+	 * It prints each chicken menu's rating, which is entered. 
+	 * @param args refers command-line arguments as an array of String objects.
+	 */
 	public static void main(String[] args) {
 	
 		Chicken firstChicken = new Chicken("Cheese_mustard", 15000, 5);
