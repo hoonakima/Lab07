@@ -5,9 +5,7 @@ public class Chicken {
 	private String name;
 	private int price;
 	private int ratings;
-	private enum Data{
-		name, price, ratings
-	};
+	
 	
 	public Chicken() {
 		this.name = "initialName";
@@ -16,21 +14,25 @@ public class Chicken {
 		
 	}
 	
-	public Chicken(String name,int price, int ratings) {
-		setChicken(name, price, ratings);
+	public String getName() {
+		return this.name;
+	}
+	public void setName(String name) {
+		this.name = name;
 	}
 	
-	public void setChicken(String name, int price, int ratings) {
-		this.name =name;
+	public int getPrice() {
+		return this.price;
+	}
+	public void setPrice(int price) {
 		this.price = price;
-		this.ratings = ratings;
 	}
 	
-	public void getChicken() {
-		for(Data nextData : Data.values()) {
-			System.out.print(nextData);
-		}
-		System.out.println();
+	public int getRatings() {
+		return this.ratings;
+	}
+	public void setRatings(int ratings) {
+		this.ratings = ratings;
 	}
 }
 
