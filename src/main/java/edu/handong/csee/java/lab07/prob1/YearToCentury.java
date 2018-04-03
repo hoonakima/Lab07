@@ -1,6 +1,12 @@
-package edu.handong.csee.java.lab07.prob1;
+package edu.handong.csee.java.lab07.prob1; 
 
-public class YearToCentury {
+/**
+ * defines YearToCentury object.
+ * The data of this object is year, and the method is calCentury.
+ * @author jo jeong hoon
+ *
+ */
+public class YearToCentury { 
 
 	int year;
 	
@@ -12,6 +18,10 @@ public class YearToCentury {
 		this.year =year;
 	}
 	
+	/**
+	 * returns century number from given year value
+	 * @return refers century number
+	 */
 	public int calCentury() {
 		
 		if(year%100 ==0)
