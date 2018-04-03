@@ -8,10 +8,16 @@ public class Chicken {
 	
 	
 	public Chicken() {
-		this.name = "initialName";
+		this.name = "justChicken";
 		this.price = 0;
 		this.ratings = 0;
 		
+	}
+	
+	public Chicken(String name, int price, int ratings) {
+		this.name = name;
+		this.price = price;
+		this.ratings =ratings;
 	}
 	
 	public String getName() {
@@ -37,4 +43,3 @@ public class Chicken {
 }
 
 
-//git export!!!!!!!!!
