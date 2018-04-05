@@ -3,8 +3,7 @@ package edu.handong.csee.java.lab07.prob2; //package name
 /**
  * defines a Chicken object.
  * This object has three data, which are chicken menu's name, price, and ratings(number of stars).
- * These are private data, but you can set the values.
- * Also, you can get these data.
+ * These are private data, but you can set and get the values.
  * @author jo jeong hoon
  *
  */
@@ -24,6 +23,7 @@ public class Chicken { //defines a Chicken class
 
 	/**
 	 * This constructor has parameters which are name, price, and ratings.
+	 * It initializes an object's data.
 	 * @param name refers name of chicken menu.
 	 * @param price refers price of chicken menu.
 	 * @param ratings refers rating of chicken menu. 

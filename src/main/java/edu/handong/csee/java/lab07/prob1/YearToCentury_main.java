@@ -11,6 +11,7 @@ public class YearToCentury_main { //defines YearToCentury_main class
 
 	/**
 	 * starts this program.
+	 * It shows century number which is calculated by given year number.
 	 * @param args refers command-line arguments as an array of String objects.
 	 */
 	public static void main(String[] args) { //define a main method

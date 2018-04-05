@@ -5,7 +5,7 @@ import java.util.Random; //import Random class
 /**
  * This class is for detecting which student failed java programming course.
  * It shows whether students failed the course or not according to given random absence number.
- * Information of students is got from Attendance class which is in same package. 
+ * The information of students is got from Attendance class which is in same package. 
  * @author jo jeong hoon
  *
  */
@@ -13,6 +13,7 @@ public class Attendance_main { //defines the Attendance_main class
 
 	/**
 	 * This main method starts this program.
+	 * It shows which student failed the course.
 	 * @param args refers command-line arguments as an array of String objects.
 	 */
 	public static void main(String[] args) { //defines main method

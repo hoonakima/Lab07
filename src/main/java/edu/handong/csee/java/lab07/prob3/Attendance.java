@@ -2,8 +2,9 @@ package edu.handong.csee.java.lab07.prob3; //package name
 
 
 /**
- * This class is about student's information : name, grade, student number, and the number of absence.
- * You can get and set the student's information.  
+ * This class has student's information which are name, grade, student number, and the number of absence.
+ * Also, there are getter and setter methods for the informations.
+ * You can get and set the student's information which is hidden.  
  * @author jo jeong hoon
  *
  */
@@ -56,19 +57,19 @@ public class Attendance { //define the Attendance class
 	}
 	
 	public String getName() { //defines getName method
-		return name; //return name value
+		return name; //returns name value
 	}
 	
 	public int getGrade() { //defines getGrade method
-		return grade; //return grade value
+		return grade; //returns grade value
 	}
 	
 	public String getStudentNumber() { //defines getStudentNumber method
-		return studentNumber; //return studentNumber value
+		return studentNumber; //returns studentNumber value
 	}
 	
 	public int getNumOfAbsence() { //defines getNumOfAbsence method
-		return numOfAbsence; //return numOfAbsence value
+		return numOfAbsence; //returns numOfAbsence value
 		
 	}
 	
