@@ -2,8 +2,19 @@ package edu.handong.csee.java.lab07.prob3;
 
 import java.util.Random;
 
+/**
+ * This class is for detecting which student failed java programming course.
+ * It shows whether students failed the course or not according to given random absence number.
+ * Information of students is got from Attendance class which is in same package. 
+ * @author jo jeong hoon
+ *
+ */
 public class Attendance_main {
 
+	/**
+	 * This main method starts this program.
+	 * @param args refers command-line arguments as an array of String objects.
+	 */
 	public static void main(String[] args) {
 		
 		Random randomGen = new Random();

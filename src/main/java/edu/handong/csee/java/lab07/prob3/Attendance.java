@@ -1,6 +1,12 @@
 package edu.handong.csee.java.lab07.prob3;
 
 
+/**
+ * This class is about student's information : name, grade, student number, and the number of absence.
+ * You can get and set the student's information.  
+ * @author jo jeong hoon
+ *
+ */
 public class Attendance {
 
 	private String name;
@@ -9,7 +15,7 @@ public class Attendance {
 	private int numOfAbsence;
 	
 	
-	public Attendance() {//constructor name = class name
+	public Attendance() {//<constructor name = class name>
 		this.name = "Null";
 		this.grade =0;
 		this.studentNumber = "Null";
@@ -17,6 +23,14 @@ public class Attendance {
 		
 	}
 	
+	/**
+	 * This constructor's parameters are student's name, grade, student number, and the number of absence.
+	 * By using this constructor, you can initialize each student's data.
+	 * @param name refers student's name.
+	 * @param grade refers student's grade.
+	 * @param studentNumber refers student's student number.
+	 * @param numOfAbsence refers the number of absence of student.
+	 */
 	public Attendance(String name, int grade, String studentNumber, int numOfAbsence) {
 	 this.name = name;
 	 this.grade = grade;
