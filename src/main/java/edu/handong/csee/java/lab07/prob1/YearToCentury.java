@@ -1,7 +1,7 @@
 package edu.handong.csee.java.lab07.prob1;  //package name
 
 /**
- * defines YearToCentury object.
+ * defines an YearToCentury object.
  * The data of this object is year, and the method is calCentury.
  * @author jo jeong hoon
  *
@@ -14,7 +14,11 @@ public class YearToCentury { //defines YearToCentury class
 		year =0; //default year value when default constructor is called
 	}
 
-	public YearToCentury(int year) { //constructor which has int parameter
+	/**
+	 * This is YearToCentury constructor which has an int type parameter.
+	 * @param year refers year number.
+	 */
+	public YearToCentury(int year) { //constructor 
 		this.year =year; //puts the parameter value into the instance variable 
 	}
 
