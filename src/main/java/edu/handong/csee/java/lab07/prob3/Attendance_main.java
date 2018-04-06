@@ -17,7 +17,7 @@ public class Attendance_main { //defines the Attendance_main class
 	 * @param args refers command-line arguments as an array of String objects.
 	 */
 	public static void main(String[] args) { //defines main method
-		
+
 		Random randomGen = new Random(); //instantiate the Random object
 
 
@@ -26,7 +26,7 @@ public class Attendance_main { //defines the Attendance_main class
 		Attendance Student3 = new Attendance("Lucas", 1, "21833222", 0); //instantiate Attendance object and initialize with some values
 		Attendance Student4 = new Attendance(); //instantiate Attendance object without initializing 
 
-		
+
 		Student4.setName("Martha"); //set the Student4 object's name 
 		Student4.setGrade(2); //set the Student4 grade 
 
@@ -39,22 +39,22 @@ public class Attendance_main { //defines the Attendance_main class
 			System.out.println("I'm sorry, " + Student1.getName() + ". You failed this course."); //print this line
 			System.out.println("Your the number of absence is " + Student1.getNumOfAbsence()+ "."); //print this line
 		}
-		
+
 		if(Student2.getNumOfAbsence() > 6) { //when the Student2's number of absence is greater than 6
 			System.out.println("I'm sorry, " + Student2.getName() + ". You failed this course."); //print this line
 			System.out.println("Your the number of absence is " + Student2.getNumOfAbsence()+ "."); //print this line
 		}
-		
+
 		if(Student3.getNumOfAbsence() > 6) { //when the Student3's number of absence is greater than 6
 			System.out.println("I'm sorry, " + Student3.getName() + ". You failed this course."); //print this line
 			System.out.println("Your the number of absence is " + Student3.getNumOfAbsence()+ "."); //print this line
 		}
-	
+
 		if(Student4.getNumOfAbsence() > 6) { //when the Student4's number of absence is greater than 6
 			System.out.println("I'm sorry, " + Student4.getName() + ". You failed this course."); //print this line
 			System.out.println("Your the number of absence is " + Student4.getNumOfAbsence()+ "."); //print this line
 		}
-		
+
 
 
 
